@@ -1,0 +1,114 @@
+#root {
+  max-width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+/* name of the website style */
+.website-name {
+  font-family: 'Quantico', sans-serif;
+  font-size: 28px;
+}
+
+/* text style */
+.text-font {
+  font-family: 'Quantico', sans-serif;
+}
+
+.notbold {
+  font-weight: normal;
+}
+
+.vheight-100 {
+  min-height: 100vh;
+}
+
+.navbar-padding {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.below-nav {
+  padding-top: 5rem;
+}
+
+/* move position of a component to center of page */
+.center-position {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.close-button {
+  position: fixed;
+  right: 0;
+  margin: 0.5rem 1.5rem 0 0;
+  font-size: 2rem;
+}
+
+.icon-size {
+  font-size: 1.5rem;
+}
+
+.list-group-item {
+  font-size: 18px;
+  background-color: transparent;
+  font-family: 'Quantico', sans-serif;
+}
+
+.fixed-right-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin: 0 1.5rem 1.5rem 0;
+}
+
+.form-padding {
+  padding: 2rem;
+}
+
+.toast {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
